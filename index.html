@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="">
+    <header>
+        <h2 style="text-align: center;">TO DO APP</h2>
+    </header>
+
+    <main>
+        <section id="add_section" style="">
+            <form id="add_task_container">
+                <label>Add Task</label>
+                <input type="text" placeholder="Write new task" id="task_input">
+                <button id="add_btn">Add New</button>
+            </form>
+        </section>
+
+        <section id="all_task_section">
+            <section id="list_section">
+                <div class="new_task" id="new_task">
+                    <h2>Incomplete Task</h2>
+                    <ul id="incomplete_items">
+                        <li id="item"><input type="checkbox" id="check"><label for="">Task Name</label></li>
+                        <li id="item"><input type="checkbox" id="check"><label for="">Task Name</label></li>
+                        <li id="item"><input type="checkbox" id="check"><label for="">Task Name</label></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="list_section2">
+                <div class="complete_task" id="complete_task">
+                    <h2>Complete Task</h2>
+                    <ul id="complete_items">
+                        <li id="item">Task Name <button id="delete_btn">Delete</button></li>
+                        <li id="item">Task Name <button id="delete_btn">Delete</button></li>
+                        <li id="item">Task Name <button id="delete_btn">Delete</button></li>
+                    </ul>
+                </div>
+            </section>
+        </section>
+    </main>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

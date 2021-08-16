@@ -1,0 +1,91 @@
+body {
+    font-family: cursive;
+    width: 1200px;
+    margin: auto;
+    padding-top: 100px;
+     background-color: turquoise;
+}
+
+#add_section{
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 30px;
+}
+input#task_input {
+    padding: 15px;
+    width: 250px;
+    border-radius: 10px;
+    outline: azure;
+    border: 1px solid #aa4040;
+}
+#add_btn{
+     padding: 10px;
+    color: white;
+    background: rgb(12, 153, 146);
+    outline: none;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: cursive;
+    border-radius: 6px;
+}
+#add_btn:hover{
+    background-color: black;
+}
+#all_task_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#list_section{
+    margin-top: 150px;
+    background-color: whitesmoke;
+    padding: 30px;
+    width: 350px;
+    border-radius: 15px;
+}
+
+li#item {
+     list-style: none;
+    padding: 9px;
+    font-size: 20px;
+    font-family: cursive;
+}
+#list_section2{
+    margin-top: 150px;
+    background-color: whitesmoke;
+    padding: 30px;
+    width: 350px;
+     border-radius: 15px;
+}
+li{
+    border-bottom: 1px solid goldenrod;
+}
+
+
+/* li#item {
+    list-style: none;
+    padding: 9px;
+    font-size: 20px;
+    font-family: cursive;
+} */
+
+button#delete_btn {
+    padding: 10px;
+    color: white;
+    background: red;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: cursive;
+    border-radius: 6px;
+}
+
+#delete_btn:hover{
+    background-color: rgb(31, 7, 7);;
+}
+li{
+    list-style: none;
+}
